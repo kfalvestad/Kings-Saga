@@ -1,0 +1,545 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map10.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Bridge_All.tsx": {
+            "scaleInDock": 1
+        },
+        "House_Blue.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilemap_Elevation_64.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilemap_Flat.tsx": {
+            "scaleInDock": 1
+        },
+        "Tree.tsx": {
+            "scaleInDock": 1
+        },
+        "Water.tsx": {
+            "scaleInDock": 1
+        },
+        "assetsSummerPlains.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "boneGround.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "boneLarge.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bridgeTinySword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bushLarge.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bushMed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bushSmall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "castleConstruct.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "castleDestroyed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "castleRed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "castleYellow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "deadTroop.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "elevationTinySword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "fireEffect.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "floorsAndWalls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "floorsAndWalls16x.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "foamTinySword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "furniture1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "furniture16x.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "goblinTorch.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "goldResource.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "goldSpawn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "goldmineActive.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "goldmineDestroyed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "goldmineInactive.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "greengrassLarge.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "greengrassSmall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "groundTinySword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "happySheep.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseBlue.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseBlue64.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseConstruction.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseDestroyed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseGoblin.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseGoblinDestroyed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "housePurple.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseRed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "houseYellow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "knightPawn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "map00.tmx": {
+            "scale": 1.2836875,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 399.62997224791854,
+                "y": 303.42275670675303
+            }
+        },
+        "map01.tmx": {
+            "expandedGroupLayers": [
+                25,
+                16,
+                17
+            ],
+            "expandedObjectLayers": [
+                8,
+                33,
+                25,
+                9
+            ],
+            "scale": 1,
+            "selectedLayer": 19,
+            "viewCenter": {
+                "x": 527.5,
+                "y": 489
+            }
+        },
+        "map02.tmx": {
+            "expandedGroupLayers": [
+                11,
+                14,
+                12
+            ],
+            "expandedObjectLayers": [
+                8,
+                10,
+                14
+            ],
+            "scale": 0.991748046875,
+            "selectedLayer": 18,
+            "viewCenter": {
+                "x": 509.7060706021368,
+                "y": 381.14519226035156
+            }
+        },
+        "map03.tmx": {
+            "expandedGroupLayers": [
+                11,
+                13,
+                12
+            ],
+            "expandedObjectLayers": [
+                8,
+                10,
+                13
+            ],
+            "scale": 0.991748046875,
+            "selectedLayer": 15,
+            "viewCenter": {
+                "x": 511.2185515238049,
+                "y": 383.665993796465
+            }
+        },
+        "map04.tmx": {
+            "expandedGroupLayers": [
+                11,
+                10,
+                12
+            ],
+            "expandedObjectLayers": [
+                8,
+                9,
+                12
+            ],
+            "scale": 1,
+            "selectedLayer": 15,
+            "viewCenter": {
+                "x": 512,
+                "y": 383.5
+            }
+        },
+        "map05.tmx": {
+            "expandedGroupLayers": [
+                11,
+                10,
+                12
+            ],
+            "expandedObjectLayers": [
+                9,
+                12
+            ],
+            "scale": 1,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 512,
+                "y": 383.5
+            }
+        },
+        "map10.tmx": {
+            "expandedGroupLayers": [
+                15,
+                16,
+                17
+            ],
+            "expandedObjectLayers": [
+                10,
+                17
+            ],
+            "scale": 0.33,
+            "selectedLayer": 34,
+            "viewCenter": {
+                "x": 1271.2121212121212,
+                "y": 1063.6363636363637
+            }
+        },
+        "mapShop.tmx": {
+            "expandedGroupLayers": [
+                11,
+                10,
+                12
+            ],
+            "expandedObjectLayers": [
+                13,
+                12
+            ],
+            "scale": 1,
+            "selectedLayer": 16,
+            "viewCenter": {
+                "x": 512,
+                "y": 383.5
+            }
+        },
+        "mushroomBig.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "mushroomMed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "mushroomSmall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "pumpkinLarge.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "pumpkinSmall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rockLarge.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rockMedium.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rockSmall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rocksWater1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rocksWater2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rocksWater3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rocksWater4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scarecrow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "shadowsTinySword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "signArrow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "signSkull.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "stop_sign.tsx": {
+            "scaleInDock": 1
+        },
+        "towerBlue.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerConstructGoblin.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerConstruction.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerDestroyed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerDestroyedGoblin.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerPurple.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerRed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerRedGoblin.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerYellow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "towerYellowGoblin.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "treesTinySword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "treesTinySword64.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "troop_pawn_red.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "waterTinySword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "woodResource.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "woodSpawn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/kjell/Desktop/INF112/axe-kin/assets/maps/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Red",
+    "map.height": 24,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 32,
+    "openFiles": [
+        "map01.tmx",
+        "groundTinySword.tsx",
+        "treesTinySword.tsx",
+        "houseYellow.tsx",
+        "assetsSummerPlains.tsx",
+        "waterTinySword.tsx",
+        "foamTinySword.tsx",
+        "bridgeTinySword.tsx",
+        "map00.tmx",
+        "rocksWater4.tsx",
+        "rocksWater3.tsx",
+        "rocksWater2.tsx",
+        "rocksWater1.tsx",
+        "rockLarge.tsx",
+        "towerBlue.tsx",
+        "towerConstruction.tsx",
+        "towerDestroyed.tsx",
+        "towerDestroyedGoblin.tsx",
+        "towerPurple.tsx",
+        "towerYellowGoblin.tsx",
+        "woodResource.tsx",
+        "woodSpawn.tsx",
+        "boneGround.tsx",
+        "boneLarge.tsx",
+        "bushLarge.tsx",
+        "bushMed.tsx",
+        "castleConstruct.tsx",
+        "castleDestroyed.tsx",
+        "castleRed.tsx",
+        "castleYellow.tsx",
+        "deadTroop.tsx",
+        "elevationTinySword.tsx",
+        "fireEffect.tsx",
+        "goldmineActive.tsx",
+        "goldmineDestroyed.tsx",
+        "goldmineInactive.tsx",
+        "goldResource.tsx",
+        "goldSpawn.tsx",
+        "greengrassLarge.tsx",
+        "greengrassSmall.tsx",
+        "happySheep.tsx",
+        "houseBlue.tsx",
+        "houseConstruction.tsx",
+        "houseDestroyed.tsx",
+        "houseGoblin.tsx",
+        "houseGoblinDestroyed.tsx",
+        "housePurple.tsx",
+        "houseRed.tsx",
+        "mushroomBig.tsx",
+        "mushroomMed.tsx",
+        "mushroomSmall.tsx",
+        "pumpkinLarge.tsx",
+        "pumpkinSmall.tsx",
+        "signSkull.tsx",
+        "towerConstructGoblin.tsx",
+        "towerRed.tsx",
+        "towerYellow.tsx",
+        "map02.tmx",
+        "map03.tmx",
+        "map04.tmx",
+        "map05.tmx",
+        "floorsAndWalls16x.tsx",
+        "furniture16x.tsx",
+        "mapShop.tmx",
+        "furniture1.tsx",
+        "map10.tmx",
+        "treesTinySword64.tsx",
+        "houseBlue64.tsx",
+        "troop_pawn_red.tsx"
+    ],
+    "project": "axe_kin_maps.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "map01.tmx",
+        "groundTinySword.tsx",
+        "treesTinySword.tsx",
+        "houseYellow.tsx",
+        "assetsSummerPlains.tsx",
+        "waterTinySword.tsx",
+        "foamTinySword.tsx",
+        "bridgeTinySword.tsx",
+        "map00.tmx",
+        "rocksWater4.tsx",
+        "rocksWater3.tsx",
+        "rocksWater2.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}

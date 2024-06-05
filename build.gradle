@@ -1,0 +1,103 @@
+buildscript {
+    
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases/" }
+        google()
+    }
+    dependencies {
+        classpath "com.badlogicgames.gdx:gdx-ai:1.8.1"
+
+    }
+}
+
+allprojects {
+    apply plugin: "eclipse"
+    apply plugin: "jacoco"
+
+    version = '1.0'
+    ext {
+        appName = "kings-saga"
+        gdxVersion = '1.12.1'
+        roboVMVersion = '2.3.20'
+        box2DLightsVersion = '1.5'
+        ashleyVersion = '1.7.4'
+        aiVersion = '1.8.1'
+        gdxControllersVersion = '2.2.1'
+    }
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+        gradlePluginPortal()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases/" }
+        maven { url "https://jitpack.io" }
+    }
+}
+
+project(":desktop") {
+    apply plugin: "java-library"
+
+
+    dependencies {
+        implementation project(":core")
+        api "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+        api "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+        api "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
+		api "com.badlogicgames.gdx:gdx-ai:$aiVersion"        
+    }
+}
+
+project(":core") {
+    apply plugin: "java-library"
+
+
+    dependencies {
+        api "com.badlogicgames.gdx:gdx:$gdxVersion"
+        api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+		api "com.badlogicgames.gdx:gdx-ai:$aiVersion"
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
+        testImplementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+        testImplementation "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
+        testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+        testImplementation 'org.mockito:mockito-core:5.11.0'
+    }
+
+    test {
+        useJUnitPlatform()
+        testLogging {
+            events "passed", "skipped", "failed"
+        }
+    }
+
+
+
+tasks.named('test', Test) {
+    useJUnitPlatform()
+}
+
+jacocoTestReport {
+    reports {
+        // xml.enabled true
+        // html.enabled true
+    }
+    afterEvaluate {
+    classDirectories.setFrom(files(classDirectories.files.collect {
+        fileTree(dir: it,
+                exclude: ['**/com/kingssaga/game/view/**'])
+    }))
+    }
+}
+
+test {
+    finalizedBy jacocoTestReport
+}
+
+
+}
