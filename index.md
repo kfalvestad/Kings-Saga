@@ -25,6 +25,6 @@ Velkommen til King's Saga! Du spiller som en viking som har vendt hjem til Norge
 
 [!! LAST NED SPILLET HER !! ](https://drive.google.com/file/d/1XY4mhUHfB477GPouwQNuiYZT3geTjpBa/view?usp=sharing)
 
-[Kildekode](https://github.com/carldtork/Kings-Saga)
+[Kildekode](https://github.com/kfalvestad/Kings-Saga)
 
 **Laget av Carl Didrik Torkildsen, Kjell Martin Solsvik og Kjetil Fantoft Alvestad i emnet [INF112 - Innføring i systemutvikling](https://www4.uib.no/emner/INF112) ved Universitetet i Bergen, våren 2024**
